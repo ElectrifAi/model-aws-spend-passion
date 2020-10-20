@@ -1,6 +1,7 @@
 # Input/Output Description
 
 - _Input_: A zip file containing 5 comma separated csv files. **__Reference file: sample.zip__**
+
 Below are the details for each CSV file. 
 
     - **_Bureau.csv_** (*REQUIRED*): 
@@ -163,4 +164,39 @@ Below are the details for each CSV file.
     ----------------------------------------------------------------------
 
 - _Output_: a JSON list of objects contaning, with each customer's ID as the main key; for every entry, **_there up to 33_** predictions in **_33_** different columns. The **_spend_pass_prob_** contained in each column will contain the probability (passion rate) a customer is passionate about the category, respectively. **__Reference file: sample.zip.out__**
+
+-  Categories: 
+    * Beauty and Health 
+    * Books and Reading-related
+    * Clothing/Merchandise Expensive
+    * Clothing/Merchandise
+    * Coffee
+    * Department Stores Expensive
+    * Department 
+    * Stores
+    * Electronics and Appliances 
+    * Entertainment 
+    * Fast Food 
+    * Gifts and Novelty Stores 
+    * Golf 
+    * Hobbies and Crafts 
+    * Household Items 
+    * Internet Marketplace 
+    * Kids 
+    * Media 
+    * Pets 
+    * Restaurants Expensive
+    * Restaurants 
+    * Sports-related 
+    * Travel 
+    * Travel-Cruises 
+    * Wine/Liquor 
+    * Auto Related Goods 
+    * Drugstores and Pharmacies 
+    * Furniture 
+    * Groceries 
+    * Home Improvement 
+    * Office Supplies 
+    * Telecom/Digital 
+    * Wholesale Clubs
 
